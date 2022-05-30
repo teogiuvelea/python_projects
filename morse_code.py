@@ -1,11 +1,3 @@
-# Step 1: Create a dictionary with numbers 0-9 and all alphabet letters and assign for each corresponding letter/number its counter part morse symbol as value.
-# import string
-
-
-# print(list(string.digits))
-# print(list(string.ascii_lowercase))
-# print(list(string.punctuation))
-
 from symbols import morse_symbols
 
 
