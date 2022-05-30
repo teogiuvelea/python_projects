@@ -1,0 +1,8 @@
+# Create a dictionary with numbers 0-9 and all alphabet letters and assign for each corresponding letter/number its counter part morse symbol as value.
+# Use string lib to import letters, digits, punctuation marks
+# Use a separate .py file to hold the dictionary with all morse symbols
+# Create functions for encrypting message
+# Create function for decrypting message
+# Create function for menu commands
+ 
+
