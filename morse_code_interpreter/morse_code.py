@@ -1,4 +1,4 @@
-from symbols import morse_symbols
+from morse_code_interpreter.symbols import morse_symbols
 
 
 def encode_message(message): 
