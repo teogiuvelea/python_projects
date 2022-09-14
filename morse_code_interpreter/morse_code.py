@@ -1,4 +1,4 @@
-from morse_code_interpreter.symbols import morse_symbols
+from symbols import morse_symbols
 
 
 def encode_message(message): 
@@ -42,4 +42,5 @@ def command():
             print("Don't understand your command. Let's try again!")
 
 
-command()
+if __name__ == "__main__":
+    command()

@@ -1,0 +1,3 @@
+This program can read text aloud from a .txt file or convert text into a mp3 file.
+When it used the offline function the voice sounds extremelly robotic.
+But when the online function is used the voice has a british accent which sounds way better. The best part is the accent can be changed based on language used in the text.

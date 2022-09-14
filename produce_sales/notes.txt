@@ -1,0 +1,2 @@
+I've created this project to store the quantity of each produce we sold this summer season.
+Currently the data is saved into a csv file. I'm planning to use a database in the future, still debating which one to use.

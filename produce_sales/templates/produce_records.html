@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produce Sales</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    {% block content %}
+        <div class="container p-10 mt-5">
+            <h1>Produce Sales</h1>
+            <form action="" method="POST">
+                {{ form.hidden_tag() }}
+                <div class="form-group row p-2">
+                    <label for="title" class="col-sm-2 col-form-label">Produce Name</label>
+                    <div class="col-sm-5 ">
+                        <input type="text" class="form-control" id="title" name="title">
+                    </div>
+                </div>  
+                <div class="form-group row p-2">
+                    <label for="quantity" class="col-sm-2 col-form-label">Quantity</label>
+                    <div class="col-sm-5 ">
+                        <input type="text" class="form-control" id="quantity" name="quantity">
+                    </div>
+                </div>  
+                <div class="form-group row p-2">
+                    <label for="price" class="col-sm-2 col-form-label">Produce Price</label>
+                    <div class="col-sm-5 ">
+                        <input type="text" class="form-control" id="price" name="price">
+                    </div>    
+                </div>
+                <div class="form-group row p-2">
+                    <label for="date" class="col-sm-2 col-form-label">Sale Date</label>
+                    <div class="col-sm-5 ">
+                        <input type="text" class="form-control" id="date" name="date">
+                    </div>    
+                </div>
+                <div class="form-group row p-2">
+                    <label for="market" class="col-sm-2 col-form-label">Market Place</label>
+                    <div class="col-sm-5 ">
+                        <input type="text" class="form-control" id="market" name="market">
+                    </div>    
+                </div>
+                <div class="form-group row p-2">
+                    <label for="status" class="col-sm-2 col-form-label">Seller/Buyer</label>
+                    <div class="col-sm-5 ">
+                        <input type="text" class="form-control" name="status" id="status">
+                    </div>
+                </div>
+                <div class="form-group row p-2">
+                    <div class="col-sm-2">
+                        <input type="submit" value="Insert">
+                    </div>
+                </div>    
+            </form>    
+        </div>
+        <div class="container p-10">
+            <hr>
+            <a class="btn btn-dark btn-lg" href="/list_items" role="button">Go to Reports</a>
+        </div>
+    {% endblock content %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

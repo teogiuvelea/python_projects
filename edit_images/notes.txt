@@ -1,0 +1,14 @@
+How to crop images or better said how to select a specific part of an image?
+
+I created two python scripts: main.py and crop_pics.py
+In main.py I get all the titles of files from active directory and store them in a list
+Then I save that list's content in a .txt file
+
+In crop_pics.py script I do a few things: I read the data from .txt file, get rid of '\n' newline character.
+Next, using opencv library I iterate through the list of images names and crop the section I want from the image. 
+
+Before running crop_pics.py rotate images from img_dir to left or right as cv lib increases the images across the screen and you won't be able to select the section you want because it will be cut out.
+
+Then go to cropped_img directory and rotate the images back.
+
+Run conv_to_pdf.py to convert the cropped images into a pdf file.

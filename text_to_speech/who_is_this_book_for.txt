@@ -1,0 +1,11 @@
+You should have some level of Python coding experience to make the most of this book.
+Although the book assumes no previous Flask knowledge, Python concepts such as packages, modules, functions, decorators, and object-oriented programming are assumed to be well understood. Some familiarity with exceptions and diagnosing issues from stack traces will be very useful.
+
+While working through the examples in this book, you will spend a great deal of time in the command line. You should feel comfortable using the command line of your operating system.
+
+Modern web applications cannot avoid the use of HTML, CSS, and JavaScript. The example application that is developed throughout the book obviously makes use of these, but the book itself does not go into a lot of detail regarding these technologies and how they are used. Some degree of familiarity with these languages is recommended if you intend to develop complete applications without the help of a developer versed in client side techniques.
+
+I released the companion application to this book as open source on GitHub. Although GitHub makes it possible to download applications as regular ZIP or TAR files, I strongly recommend that you install a Git client and familiarize yourself with source code version control, at least with the basic commands to clone and check out the different versions of the application directly from the repository. The short list of commands that you’ll need is shown in “How to Work with the Example Code ” on page xiii. You will want to use version control for your own projects as well, so use this book as an excuse to learn Git!
+
+Finally, this book is not a complete and exhaustive reference on the Flask framework.
+Most features are covered, but you should complement this book with the official Flask documentation.

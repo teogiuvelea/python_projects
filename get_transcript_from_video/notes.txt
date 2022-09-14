@@ -1,0 +1,12 @@
+This project is still a work in progress. The idea started with me wanting to record myself when I'm researching a new topic or explaining to myself stuff out loud and wanting the get all the words as transcript so it'll be easier to remember what I said.  
+What it does:
+I've separated each type of file format into different folders so they won't get mixed and run them into the main.py file.
+
+1. Takes a video file (.mp4) and converts it into a .mp3 file
+2. Then the .mp3 is converted into a .wav file
+3. Then the .wav file is used to get a transcript of the file and save it to a .txt file for later reuse.
+4. To delete all files from directories except the transcript ones and start afresh I created delete_files.py so I won't have to do it manually. 
+
+The downside is recognize_google() function from speech_recognition library doesn't get all the words. So many words get left out or worse misinterpreted. I still need to do research on how to fix this.
+
+

@@ -1,0 +1,9 @@
+Some of the downloaded songs won't have bit rate so to fix that I use this site 'https://online-audio-converter.com/' to convert them into .mp3 format even though they were already converted by python library into mp3.
+If the song is played on a car fm transmitter from a usb stick it won't work if it doesn't have bit rate.
+Playing the songs on a computer works just fine.
+I tested it on my car, it actually took me a few hours to figure that out. 
+
+How the program works, steps:
+1. Write band and song title in songs.txt file
+2. Run main.py file
+3. Files downloaded will be saved in songs directory
