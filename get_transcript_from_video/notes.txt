@@ -10,3 +10,9 @@ I've separated each type of file format into different folders so they won't get
 The downside is recognize_google() function from speech_recognition library doesn't get all the words. So many words get left out or worse misinterpreted. I still need to do research on how to fix this.
 
 
+Update: If you speak clearly enough, almost all words get recognized and transcribed correctly. 
+
+I tested a few languages: romanian, english and spanish
+Romanian: not 100% accurate, acceptable for now.
+English: If there are small pauses between words and pronunciation is correct, works okay-ish
+Spanish: Not really working, it's not able to recognize much. 
